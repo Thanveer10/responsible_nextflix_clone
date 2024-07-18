@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+background: #000;
+color: #fff;
+}
+/* 
+ .headersec{
+    width:100%;
+    min-height: calc(100%-43.76rem)
+}  */
+.headersec{
+    width: 100%;
+    min-height: 53.75rem;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_small.jpg" );
+    background-size: cover;
+    background-position: center;
+    padding: 15px 5%;
+   
+    position: relative;
+}
+nav{
+ width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem 2.813rem;
+
+}
+.navlogo{
+    width: 11.25rem;
+    cursor: pointer;
+}
+nav button{
+
+border: 0;
+outline: 0;
+background:#db0001;
+color: #fff;
+padding: 8px 15px;
+font-size: 1rem;
+border-radius: 4px;
+margin-left: 15px;
+cursor: pointer;
+font-weight: 600;
+box-sizing: border-box;
+transition:opacity 0.15s; 
+min-width: 70px;
+}
+
+
+.nav_lagu_button{
+gap: 15px;
+/* justify-items: auto; */
+align-items: center;
+background: transparent;
+background-color: rgba(23, 23, 23, 0.5);
+border: 1px solid #fff;
+padding: 7px 10px;
+cursor: auto;
+border-color: rgba(153, 149, 149, 0.7);
+border-width: thin;
+color: #fff;
+border-radius: 4px;
+font-size: 1rem;
+font-weight: 600;
+min-width: 103px;
+}
+nav button:hover{
+    opacity: 0.9;
+   
+}
+.nav_lagu_button img{
+    width: 8px;
+    padding-left: 2px;
+}
+
+.header_condent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: end;
+    margin-top: 6rem;
+    text-align: center;
+    padding-top: 8.25rem;
+}
+
+.header_condent h1{
+    font-size: 3.3rem;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: -3px;
+  /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+}
+.header_condent h3{
+
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 70px;
+    /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+}
+.header_condent p{
+    /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+    font-size: 1.50rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+  .email_singup{
+    margin-top: 20px;
+    /* padding: 1px 9rem; */
+    border-radius: 4px; 
+    display: flex;
+    height: 4.5rem;
+    justify-content: center;
+}  
+.email_singup input{
+    font-size: 1rem;
+    width:30rem ;
+    padding: 10px 10px;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px; 
+    border-color: rgba(255, 255, 255, 0.4);
+    border-width: thin;
+    background-color: rgba(32, 32, 32, 0.7);
+   outline-color: rgb(15, 15, 15);
+   input:focus {
+    outline: none;
+}
+   
+}
+.email_singup button{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 10px;
+    padding: 12px 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #db0001;
+    color: rgb(255, 255, 255);
+    border-radius: 4px; 
+    border: none;  
+    cursor: pointer; 
+    transition:opacity 0.15s; 
+}
+.email_singup button:hover{
+    opacity: 0.9;
+} 
+
+/* .email_singup button svg{
+    margin-top: 3px;
+    display: inline-flex;
+    align-items: center;
+    } */
+
+.endline{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    bottom: -0.5rem;
+   text-align: center;
+    background-color: rgb(35,35,35);
+}
+  /* --------------------------------------------------------- ---------------------------features section--------------------------- */
+ .saprationline{
+    border-top: 8px solid rgb(35,35,35) ; 
+position: absolute;
+left: 0;
+right: 0;
+}
+
+.features{
+    padding: 50px 10%;
+    font-size: 22px;  
+    overflow-x: hidden;
+} 
+
+.rowsec{
+  
+    /* display: flex; */
+    /* width: 100%; */
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    padding: 50px 0;
+}    
+   .features h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+   } 
+   .features p{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.50rem;
+    font-weight: 400;
+    /* line-height: 1.2; */
+   }
+/* --------------------------------------------------------- Qestion section -----------------------------------------------------------*/
+
+.faq{
+
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.faq h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.qustion{
+margin: 60px auto;
+width: 100%;
+max-width: 100%;
+transition: background-color 1.5s;
+
+}
+.qustion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 5px;
+ 
+    
+}
+.qustion :hover{
+
+    background-color: rgba(255, 255,255,0.15);
+}
+.qustion li label{
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.qustion li label :hover{
+   background-color: #000; 
+}
+label::after{
+    content: '+';
+  font-size: 2.5rem;
+  position: absolute;
+  right: 20px;
+  font-weight: 300;
+}
+input[type="radio"]{
+    display: none;
+}
+.qustion .content{
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-hight 0.5s,padding 0.5s;
+}
+.qustion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+/* -------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------- */
+.footersec{
+    margin-top: 50px;
+    padding: 50px 12% 10px;
+    border-top: 6px solid #333;
+    color: rgba(255,255,255,0.7);
+  
+}
+.footersec .footerrow{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+    
+}
+.footersec h2{
+    color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.footersec .rowcol{
+   flex-basis: 25px;
+   flex-grow: 1;
+}
+.footersec .rowcol a{
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.950rem;
+    font-weight: 400;
+     margin-bottom: 16px;
+}
+
+.endtext{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* ---------------------------------------------------media-queries-for-small-screen--------------------------------------------------------------------------------- */
+
+ @media screen and (max-width:950px){
+
+    .headersec{
+        padding: 20px 6px;
+        min-height: 43rem;
+    }
+    .header_condent{
+        padding: 0 10px;
+        padding-top: 1rem;
+    }
+
+    nav div{
+        display: flex;
+        justify-content: space-between;
+        
+    } 
+    nav{
+        padding: 1rem 0.2rem; 
+        }
+
+    .navlogo{
+     width: 130px;
+    }
+    .email_singup{
+        flex-direction: column; 
+       justify-content:center; 
+       align-items:center; 
+
+    }  
+    .email_singup input{
+        padding: 20px 10px;
+        margin-bottom: 5px;
+        max-width:22rem ;
+        justify-content:center; 
+       align-items:center; 
+    }
+    .email_singup button{
+        font-size: 1rem;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    nav button{
+        padding: 5px 10px ;
+        font-size: 0.8rem;
+    }
+    .nav_lagu_button{
+        padding: 5px 8px;
+        font-size: 0.8rem;
+    }
+    .rowsec{
+        text-align: center;
+        
+    }
+    .features h2{
+        font-size: 2.2rem;
+    }
+    .features p{
+        font-size: 1.3rem;
+    }
+    .qustion li label{
+        font-size: 1.2rem;
+        padding: 26px  5px;
+    }
+} 
+
+
+
+
+
+@media screen and (max-width:1200px) {
+   
+    .faq{
+        padding: 10px 5%;
+        text-align: center;
+    }
+    
+    .footersec{
+        font-size: 0.5rem;
+        padding: 50px 1% 15px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1230px) {
+    .header_condent h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .header_condent h3{
+        text-align: center;
+        font-size: 1.2rem; 
+    }
+    .header_condent p{
+        text-align: center;
+        font-size: 1.2rem; 
+     }
+}
+
+
